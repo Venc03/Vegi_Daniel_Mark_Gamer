@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+    color: beige;
+    font-size: 10pt;
+    margin: 0; 
+}
+body{
+    background-image: url(kepek/black.png);
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+article img{
+    float: right;
+}
+img{
+    width: 300px;
+}
+main{
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    background-color: rgb(red, green, blue);
+}
+header{
+    height: 300px;
+}
+header img{
+    background-size: cover;
+}
+nav ul{
+    list-style-type: none;
+}
+nav a:hover{
+    color: orange;
+}
